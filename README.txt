@@ -1,0 +1,1 @@
+A bot that keeps track of users who delete their message after @'ing Valorant.

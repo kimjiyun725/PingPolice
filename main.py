@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 import os
 
-description = '''A bot that keeps track of users who delete their message about @\'ing Valorant. '''
+description = '''A bot that keeps track of users who delete their message after @\'ing Valorant. '''
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='$', intents=intents, description=description)
